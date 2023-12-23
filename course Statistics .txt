@@ -1,0 +1,33 @@
+course: Statistics 
+topic : Probability 
+Explain all elements of this probability topic step by step.
+Experiment Trail Outcome,
+Sample space,
+Event,
+Sample point,
+Favourable outcome,
+Independent event,
+Probability of an event,
+Classical probability ,
+Conditional probability,
+Correlation,
+Regression,
+Distribution ,
+Binomial distribution,
+Poisson distribution,
+Normal distribution,
+Test of hypothesis,
+Null hypothesis,
+Alternative hypothesis,
+Test,
+Population,
+Test statistic,
+Level of significance,
+Type 1 error,
+Type 2 error,
+Power of test,
+Moments ,
+Rth order central moment,
+Scatter diagram,
+Correlation co efficient
+I am preparing myself for tomorrow class test exam on that topic. help me by make a proper note with enough mathematical example and other neccessary example relevent to the topic. 

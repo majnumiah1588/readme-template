@@ -1,0 +1,10 @@
+Graph Theory :
+1. Adjacency Matrix (2D Array)   -> Grid && short Memory er jonno
+2. Adjacency List(Vector) (better to use than Matrix)
+
+BFS -> Queue
+DFS -> Recursion
+DIjkstra -> Priority Queue
+Overall Complexity
+ 
+

@@ -1,0 +1,1 @@
+{"name":"Local: all_divisors_of_n","url":"e:\\Important Code\\all_divisors_of_n.cpp","tests":[{"id":1703262282537,"input":"1\n20\n","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"e:\\Important Code\\all_divisors_of_n.cpp","group":"local","local":true}

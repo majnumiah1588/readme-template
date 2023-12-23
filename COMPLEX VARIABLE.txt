@@ -1,0 +1,38 @@
+To find a complex function \( v(x, y) \) such that \( f(z) = u + iv \) is analytic, we need to find the conjugate harmonic function of \( u(x, y) \), where \( u(x, y) = e^{-x}(x\sin y - y\cos y) \).
+
+The Cauchy-Riemann equations for a complex function \( f(z) = u(x, y) + iv(x, y) \) state:
+
+\[ \frac{\partial u}{\partial x} = \frac{\partial v}{\partial y} \]
+\[ \frac{\partial u}{\partial y} = -\frac{\partial v}{\partial x} \]
+
+First, let's find the partial derivatives of \( u(x, y) \):
+
+\[ \frac{\partial u}{\partial x} = -e^{-x}(x\sin y - y\cos y) + e^{-x}(\sin y) \]
+\[ \frac{\partial u}{\partial y} = e^{-x}(x\cos y + y\sin y) + e^{-x}(\cos y) \]
+
+Comparing these with the Cauchy-Riemann equations, we get two equations:
+
+1) \[ -e^{-x}(x\sin y - y\cos y) + e^{-x}(\sin y) = \frac{\partial v}{\partial y} \]
+2) \[ e^{-x}(x\cos y + y\sin y) + e^{-x}(\cos y) = \frac{\partial v}{\partial x} \]
+
+Now we need to solve these equations to find \( v(x, y) \). From equation (2), we can solve for \( \frac{\partial v}{\partial x} \):
+
+\[ \frac{\partial v}{\partial x} = e^{-x}(x\cos y + y\sin y + \cos y) \]
+
+Integrating this with respect to \( x \) gives us \( v(x, y) \):
+
+\[ v(x, y) = \int (x\cos y + y\sin y + \cos y)e^{-x}dx \]
+
+Integrating \( e^{-x} \) with respect to \( x \) gives \( -e^{-x} \), so the integral becomes:
+
+\[ v(x, y) = -(x\cos y + y\sin y + \cos y)e^{-x} + g(y) \]
+
+where \( g(y) \) is an arbitrary function of \( y \) that arises from integration with respect to \( x \). To determine \( g(y) \), we can use equation (1):
+
+\[ \frac{\partial v}{\partial y} = -e^{-x}(x\sin y - y\cos y + \sin y) \]
+
+Comparing this with \( \frac{\partial v}{\partial y} = -e^{-x}(x\sin y - y\cos y) + e^{-x}(\sin y) \), we find that \( g(y) = 0 \).
+
+Therefore, the function \( v(x, y) \) that makes \( f(z) = u + iv \) analytic is:
+
+\[ v(x, y) = -(x\cos y + y\sin y + \cos y)e^{-x} \]

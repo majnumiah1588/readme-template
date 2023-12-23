@@ -1,0 +1,1 @@
+{"name":"Local: Binary_Search","url":"e:\\Important Code\\DS_LAB_21_Dec_2023\\Binary_Search.cpp","tests":[{"id":1703142858757,"input":"3\n1 2 3\n2","output":"1"},{"id":1703142925305,"input":"5\n1 2 3 4 100\n4","output":"3"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"e:\\Important Code\\DS_LAB_21_Dec_2023\\Binary_Search.cpp","group":"local","local":true}
